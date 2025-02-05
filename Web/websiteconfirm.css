@@ -1,0 +1,38 @@
+body {
+    display: flex; /* เปิดใช้งาน Flexbox */
+    background-color: #872000;
+    flex-direction: column; /* จัดเรียง Flexbox แนวตั้ง */
+    align-items: center; /* จัดเนื้อหาให้อยู่ตรงกลางแนวนอน */
+    justify-content: center; /* จัดเนื้อหาให้อยู่ตรงกลางแนวตั้ง */
+    min-height: 100vh; /* กำหนดความสูงขั้นต่ำให้เท่ากับความสูงของหน้าจอ */
+    margin: 0; /* ลบค่า margin เริ่มต้นของ body */
+    padding: 0; /* ลบค่า padding เริ่มต้นของ body */
+    font-family: Arial, sans-serif; /* ฟอนต์ตัวอักษร */
+  }
+  button[type="submit"] {
+    background-color: #FF6347; /* สีปุ่ม */
+    color: white; /* สีตัวอักษร */
+    padding: 10px 20px; /* ช่องว่างภายในปุ่ม */
+    border: none; /* ลบขอบปุ่ม */
+    border-radius: 5px; /* มุมโค้งมน */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นมือเมื่อกด */
+    margin: 20px auto;
+  }
+  
+  button[type="undo"]{
+    background-color: white; /* สีปุ่ม */
+    color: black; /* สีตัวอักษร */
+    padding: 10px 20px; /* ช่องว่างภายในปุ่ม */
+    border: none; /* ลบขอบปุ่ม */
+    border-radius: 5px; /* มุมโค้งมน */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นมือเมื่อกด */
+    margin: 20px auto;
+  }
+.container {
+    background-color: white; /* สีพื้นหลังโปร่งแสง */
+    border-radius: 10px; /* มุมโค้งมน */
+    padding: 20px; /* ช่องว่างภายในกรอบ */
+    margin: 20px auto; /* จัดวางกรอบให้อยู่ตรงกลาง */
+    width: auto; /* ปรับขนาดกรอบตามต้องการ */
+    
+  }
